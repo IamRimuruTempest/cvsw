@@ -10,11 +10,11 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-bg": "url('/Moa Signing.jpg')",
+        "hero-bg": "url('/Bg.jpg')",
         "about-bg": "url('/About Us v1.3.jpg')",
       },
     },
   },
-  plugins: [require("preline/plugin")],
+  plugins: [require("preline/plugin"), require("tailwindcss-bg-patterns")],
 };
 export default config;
