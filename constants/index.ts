@@ -6,92 +6,147 @@ export const OBJECTIVES = [
   "Promote business networking and startup investing.",
 ];
 
-export const DAY1 = [
+export const ORGANIZERS = [
   {
-    time: "8:00 AM - 9:20 AM",
-    title: "Opening Ceremony",
-    speakers: [""],
-    location: "Claude Andrews Convention Center",
-    bg: "#2E57D0",
+    alt: "SINAG Logo",
+    logo: "/organizers/sinag.png",
   },
   {
-    time: "9:20 AM - 9:30 AM",
-    title: "Welcome and Inspirational Message",
+    alt: "DOST Logo",
+    logo: "/organizers/dost.png",
+  },
+  {
+    alt: "DTI Logo",
+    logo: "/organizers/dti.png",
+  },
+  {
+    alt: "DA Logo",
+    logo: "/organizers/da.png",
+  },
+  {
+    alt: "DICT Logo",
+    logo: "/organizers/dict.svg",
+  },
+  {
+    alt: "PCCI Logo",
+    logo: "/organizers/pcci.png",
+  },
+  {
+    alt: "CSU Logo",
+    logo: "/organizers/csu.png",
+  },
+  {
+    alt: "ISU Logo",
+    logo: "/organizers/isu.png",
+  },
+  {
+    alt: "NVSU Logo",
+    logo: "/organizers/nvsu.png",
+  },
+  {
+    alt: "BIZNEST Logo",
+    logo: "/organizers/biznest.png",
+  },
+  {
+    alt: "CVLTBI Logo",
+    logo: "/organizers/cvltbi.png",
+  },
+  {
+    alt: "ADEPT TBI Logo",
+    logo: "/organizers/adept tbi.png",
+  },
+  {
+    alt: "DISC TBI Logo",
+    logo: "/organizers/DISC tbi.png",
+  },
+  {
+    alt: "NVSU SABATAN Logo",
+    logo: "/organizers/nvsu sabatan.png",
+  },
+  {
+    alt: "ISU TBI Logo",
+    logo: "/organizers/isu tbi.png",
+  },
+];
+
+export const DAY1 = [
+  {
+    time: "8:00 - 8:30 AM ",
+    title: ["Arrival and Registration"],
+    speakers: [""],
+  },
+  {
+    time: "8:40 - 9:15 AM",
+    title: ["Welcome and Inspirational Message"],
     speakers: [
       "Dr. Urdujah G. Alvarado, CSU President",
       "Hon. Maila Ting Que, Mayor, Tuguegarao City",
     ],
-    location: "Claude Andrews Convention Center",
-    bg: "#F3C71B",
   },
   {
-    time: "9:30 AM - 9:45 AM",
-    title: "Introduction to Overview of the Cagayan Valley Startup Week 2023",
+    time: "9:15 - 9:20 AM",
+    title: ["Official Opening of CVSW 2023"],
     speakers: [""],
-    location: "Claude Andrews Convention Center",
-    bg: "#2E57D0",
   },
   {
-    time: "10:15 AM - 10:35 AM",
-    title: "Keynote Address",
+    time: "9:20 - 9:35 AM",
+    title: ["Introduction of SINAG Consortium"],
+    speakers: [""],
+  },
+  {
+    time: "9:50 - 10:10 AM",
+    title: ["Keynote Address:"],
+    speakers: ["DOST Usec Sancho Mabborang"],
+  },
+  {
+    time: "10:15- 10:35 AM",
+    title: ["Keynote Address:"],
     speakers: ["DICT Usec David L. Almirol"],
-    location: "Claude Andrews Convention Center",
-    bg: "#2E57D0",
   },
   {
-    time: "10:40 AM - 11:00 AM",
-    title: "Keynote Address",
+    time: "10:40 - 11:00 AM",
+    title: ["Keynote Address:"],
     speakers: ["DTI Usec Rafaelita Aldaba"],
-    location: "Claude Andrews Convention Center",
-    bg: "#2E57D0",
   },
   {
-    time: "11:20 AM - 11:30 AM",
-    title: "Keynote Address",
+    time: "11:20 - 11:40 AM",
+    title: ["Keynote Address:"],
     speakers: ["Hon. Joseph L. Lara"],
-    location: "Claude Andrews Convention Center",
-    bg: "#2E57D0",
   },
   {
-    time: "11:30 AM - 12:00 AM",
-    title: "Formal Opening of the Grand Exhibit",
+    time: "11:40 - 12:00 AM",
+    title: ["Grand Exhibit Opening and Brand-New Startups Launch"],
     speakers: [""],
-    location: "Claude Andrews Convention Center",
-    bg: "#2E57D0",
   },
   {
-    time: "1:15 PM - 1:45 PM",
-    title: "MOA Signing with New SINAG Members",
+    time: "1:15 - 1:45 PM",
+    title: ["MOA Signing with New SINAG Members"],
     speakers: [""],
-    location: "Claude Andrews Convention Center",
-    bg: "#2E57D0",
   },
   {
-    time: "2:15 PM - 2:45 PM",
-    title: "Startup Success Stories",
-    speakers: [""],
-    location: "Claude Andrews Convention Center",
-    bg: "#2E57D0",
-  },
-  {
-    time: "2:50 PM - 3:30 PM",
-    title: "Keynote Address",
+    time: "1:50 - 2:10 PM",
+    title: ["Keynote Address:"],
     speakers: ["Dir. Enrico Paringit"],
-    location: "Claude Andrews Convention Center",
-    bg: "#2E57D0",
   },
   {
-    time: "2:50 PM - 3:30 PM",
-    title: "Investor Pitch",
+    time: "2:10 PM - 5:00 PM",
+    title: [
+      "Empowering Startups (Parallel Sessions)",
+      "Product exporting (1Export)",
+      "Accelerating Startups (EXO Asia)",
+      "LGU Support Campaign Tuguegarao",
+    ],
     speakers: [""],
-    location: "Claude Andrews Convention Center",
-    bg: "#2E57D0",
   },
   {
-    time: "5:00 PM - 8:00 PM",
-    title: "Business Forum and Networking (TED Talks)",
-    speakers: ["Dir. Enrico Paringit"],
-    location: "Claude Andrews Convention Center",
-    bg: "#2E57D0",  
+    time: "1:50 PM - 5:00 PM",
+    title: ["Investor Pitch/ Business Matching"],
+    speakers: [""],
+  },
+
+  {
+    time: "5:00 - 8:00 PM",
+    title: ["Business Forum and Networking (TED Talks)"],
+    speakers: [""],
   },
 ];

@@ -8,7 +8,8 @@ const Navbar = () => {
   }, []);
   return (
     <>
-      <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-gradient-to-r from-[#1B2D5F]  to-[#83143C]  text-sm py-3 sm:py-0 dark:bg-gray-800 dark:border-gray-700 sticky top-0">
+      {/* <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-gradient-to-r from-[#1B2D5F]  to-[#83143C]  text-sm py-3 sm:py-0 dark:bg-gray-800 dark:border-gray-700 sticky top-0"> */}
+      <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-[#322979]  text-sm py-3 sm:py-0 dark:bg-gray-800 dark:border-gray-700 sticky top-0">
         <nav
           className="relative max-w-7xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 "
           aria-label="Global"
@@ -74,28 +75,28 @@ const Navbar = () => {
 
               <Link
                 href="/"
-                className="font-medium text-[#FFFC17] sm:py-6 dark:text-blue-500"
+                className="font-medium text-[#FBB03B] sm:py-6 dark:text-blue-500"
                 aria-current="page"
               >
                 Home
               </Link>
 
               <a
-                className="flex items-center gap-x-2 font-medium text-white hover:text-[#FFFC17] sm:border-l sm:border-gray-300 sm:my-6 sm:pl-6 dark:border-gray-700 dark:text-gray-400 dark:hover:text-blue-500"
-                href="/agenda"
+                className="flex items-center gap-x-2 font-medium text-white hover:text-[#FBB03B] sm:border-l sm:border-gray-300 sm:my-6 sm:pl-6 dark:border-gray-700 dark:text-gray-400 dark:hover:text-blue-500"
+                href="/schedule"
               >
-                Agenda
+                Schedule
               </a>
 
               <a
-                className="flex items-center gap-x-2 font-medium text-white hover:text-[#FFFC17] sm:border-l sm:border-gray-300 sm:my-6 sm:pl-6 dark:border-gray-700 dark:text-gray-400 dark:hover:text-blue-500"
-                href="/contact"
+                className="flex items-center gap-x-2 font-medium text-white hover:text-[#FBB03B] sm:border-l sm:border-gray-300 sm:my-6 sm:pl-6 dark:border-gray-700 dark:text-gray-400 dark:hover:text-blue-500"
+                href="/register"
               >
                 Register
               </a>
 
               <a
-                className="flex items-center gap-x-2 font-medium text-white hover:text-[#FFFC17] sm:border-l sm:border-gray-300 sm:my-6 sm:pl-6 dark:border-gray-700 dark:text-gray-400 dark:hover:text-blue-500"
+                className="flex items-center gap-x-2 font-medium text-white hover:text-[#FBB03B ] sm:border-l sm:border-gray-300 sm:my-6 sm:pl-6 dark:border-gray-700 dark:text-gray-400 dark:hover:text-blue-500"
                 href="#"
               >
                 <svg
