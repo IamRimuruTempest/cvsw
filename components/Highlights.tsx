@@ -10,7 +10,7 @@ const Highlights = () => {
               <figure className="relative w-full h-60">
                 <Image
                   className="w-full h-full absolute top-0 start-0 object-cover rounded-xl"
-                  src="/sample v1.jpeg"
+                  src="/cvsw v1.jpg"
                   width={1000}
                   height={1000}
                   alt="about"
@@ -19,7 +19,7 @@ const Highlights = () => {
               <figure className="relative w-full h-60">
                 <Image
                   className="w-full h-full absolute top-0 start-0 object-cover rounded-xl"
-                  src="/sample v1.jpeg"
+                  src="/cvsw v2.jpg"
                   width={1000}
                   height={1000}
                   alt="about"
@@ -28,7 +28,7 @@ const Highlights = () => {
               <figure className="relative w-full h-60">
                 <Image
                   className="w-full h-full absolute top-0 start-0 object-cover rounded-xl"
-                  src="/sample v1.jpeg"
+                  src="/cvsw v3.jpg"
                   width={1000}
                   height={1000}
                   alt="about"
@@ -37,7 +37,7 @@ const Highlights = () => {
               <figure className="relative w-full h-60">
                 <Image
                   className="w-full h-full absolute top-0 start-0 object-cover rounded-xl"
-                  src="/sample v1.jpeg"
+                  src="/cvsw v4.jpg"
                   width={1000}
                   height={1000}
                   alt="about"
@@ -48,7 +48,7 @@ const Highlights = () => {
               {/* <img className="w-full h-full absolute top-0 start-0 object-cover rounded-xl" src="https://images.unsplash.com/photo-1671726203394-491c8b574a0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=988&q=80" alt="Image Description"> */}
               <Image
                 className="w-full h-full absolute top-0 start-0 object-cover rounded-xl"
-                src="/sample v1.jpeg"
+                src="/cvsw v5.jpg"
                 width={1000}
                 height={1000}
                 alt="about"
@@ -56,9 +56,9 @@ const Highlights = () => {
             </figure>
           </div>
 
-          <span className="mt-3 block text-sm text-center text-gray-500">
+          {/* <span className="mt-3 block text-sm text-center text-gray-500">
             Working process
-          </span>
+          </span> */}
         </div>
       </div>
     </div>

@@ -4,9 +4,9 @@ const Startups = () => {
   return (
     <div>
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        <div className="sm:w-1/2 xl:w-1/3 mx-auto text-center mb-6">
-          <h2 className="text-xl font-semibold md:text-2xl md:leading-tight text-gray-800 dark:text-gray-200">
-            Trusted by Open Source, enterprise, and more than 99,000 of you
+        <div className="sm:w-1/2 xl:w-1/3 mx-auto text-center mb-6 md:mb-12">
+          <h2 className="text-xl text-[#322979] font-semibold md:text-2xl md:leading-tight  dark:text-gray-200">
+            Regional Startups at Cagayan Valley Startup Week 2023
           </h2>
         </div>
         <div className="my-8 md:my-16 grid grid-cols-3 sm:flex sm:justify-center gap-6 sm:gap-x-12 lg:gap-x-20">
