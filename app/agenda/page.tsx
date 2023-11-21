@@ -67,8 +67,11 @@ const agenda = () => {
             role="tabpanel"
             aria-labelledby="horizontal-alignment-item-1"
           >
-            {DAY1.map((dayone,index) => (
-              <div key={index} className={` group mb-3 flex flex-col bg-[#${dayone.bg}] border shadow-sm  hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600`}>
+            {/* {DAY1.map((dayone, index) => (
+              <div
+                key={index}
+                className={` group mb-3 flex flex-col  border shadow-sm  hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600`}
+              >
                 <div className="p-4 md:p-5 ">
                   <div className="flex items-center h-24">
                     <div className="w-1/4">
@@ -95,7 +98,7 @@ const agenda = () => {
                   </div>
                 </div>
               </div>
-            ))}
+            ))} */}
           </div>
           <div
             id="horizontal-alignment-2"
