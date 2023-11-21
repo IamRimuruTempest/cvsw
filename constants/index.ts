@@ -69,6 +69,138 @@ export const ORGANIZERS = [
   },
 ];
 
+export const NAVIGATIONS = [
+  {
+    title: "Home",
+    route: "/",
+  },
+  {
+    title: "Schedule",
+    route: "/schedule",
+  },
+  {
+    title: "Topics",
+    route: "/topics",
+  },
+  {
+    title: "Register",
+    route: "/register",
+  },
+];
+
+export const TOPICS = [
+  {
+    profile: "/topics/1export.jpg",
+    speaker: "1Export",
+    time: "Dec 13, 2023 | 2:10 PM - 5:00 PM",
+    title: "Product Exporting",
+    subtitle: "Facebook launched the Watch platform in August",
+    bg: "/topics/Product Exporting.jpg",
+  },
+  {
+    profile: "/topics/exoasia.jpg",
+    speaker: "EXO Asia",
+    time: "Dec 13, 2023 | 2:10 PM - 5:00 PM",
+    title: "Accelerating Startups",
+    subtitle: "Facebook launched the Watch platform in August",
+    bg: "/topics/Accelerating Startups.jpg",
+  },
+  {
+    profile: "/topics/dict.jpg",
+    speaker: "DICT R02",
+    time: "Dec 15, 2023 | 9:00 AM - 12:00 NN",
+    title: "Digital Marketing 101",
+    subtitle: "Facebook launched the Watch platform in August",
+    bg: "/topics/digital marketing.jpg",
+  },
+  {
+    profile: "/topics/Jeremiah Gonzaga.jpg",
+    speaker: "Mr. Jeremiah Gonzaga",
+    time: "Dec 15, 2023 | 9:00 AM - 12:00 NN",
+    title: "Value Proposition and Business Modeling",
+    subtitle: "Facebook launched the Watch platform in August",
+    bg: "/topics/Value Proposition and Business Modeling.jpg",
+  },
+  {
+    profile: "/topics/Jose D. Guzman.jpg",
+    speaker: "Dr. Jose D. Guzman",
+    time: "Dec 15, 2023 | 9:00 AM - 12:00 NN",
+    title: "Design Thinking",
+    subtitle: "Facebook launched the Watch platform in August",
+    bg: "/topics/Design Thinking.jpg",
+  },
+  {
+    profile: "/topics/pcci.jpg",
+    speaker: "PCCI",
+    time: "Dec 15, 2023 | 9:00 AM - 12:00 NN",
+    title: "What Angel Investors Look For",
+    subtitle: "Facebook launched the Watch platform in August",
+    bg: "/topics/What Angel Investors Look For.jpg",
+  },
+  {
+    profile: "/topics/user.jpg",
+    speaker: "Ms. Marian Grace Lasam",
+    time: "Dec 15, 2023 | 9:00 AM - 12:00 NN",
+    title: "Pitching 101",
+    subtitle: "Facebook launched the Watch platform in August",
+    bg: "/topics/Pitching 101.jpg",
+  },
+  {
+    profile: "/topics/dti.jpg",
+    speaker: "DTI",
+    time: "Dec 15, 2023 | 9:00 AM - 12:00 NN",
+    title: "Business Registration",
+    subtitle: "Facebook launched the Watch platform in August",
+    bg: "/topics/Business Registration.jpg",
+  },
+  {
+    profile: "/topics/Patrick Dela Cruz.jpg",
+    speaker: "Mr. Patrick Dela Cruz",
+    time: "Dec 15, 2023 | 9:00 AM - 12:00 NN",
+    title: "Intellectual Property Rights",
+    subtitle: "Facebook launched the Watch platform in August",
+    bg: "/topics/Intellectual Property Rights.jpg",
+  },
+];
+
+export const SPEAKERS = [
+  {
+    profile: "/speakers/Dr. Urdujah G. Alvarado.jpg",
+    speaker: "Dr. Urdujah G. Alvarado",
+    position: "CSU President",
+  },
+  {
+    profile: "/speakers/Hon. Maila Ting Que.jpg",
+    speaker: "Hon. Maila Ting Que",
+    position: "Mayor of Tuguegarao City",
+  },
+  {
+    profile: "/speakers/Engr. Sancho Mabborang.jpg",
+    speaker: "Engr. Sancho Mabborang",
+    position: "DOST Undersecretary",
+  },
+  {
+    profile: "/speakers/Mr. David Almirol.jpg",
+    speaker: "Mr. David Almirol",
+    position: "DICT Undersecretary",
+  },
+  {
+    profile: "/speakers/Dr. Rafaelita Aldaba.jpg",
+    speaker: "Dr. Rafaelita Aldaba",
+    position: "DTI Undersecretary",
+  },
+  {
+    profile: "/speakers/Hon. Joseph L. Lara.jpg",
+    speaker: "Hon. Joseph L. Lara",
+    position: "Congressman 3rd District of Cagayan",
+  },
+  {
+    profile: "/speakers/Dr. Enrico C. Paringit.jpg",
+    speaker: "Dr. Enrico C. Paringit",
+    position: "Director of DOST-PCIEERD",
+  },
+];
+
 export const DAY1 = [
   {
     time: "8:00 - 8:30 AM ",

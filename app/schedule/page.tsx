@@ -3,7 +3,10 @@ import { DAY1 } from "@/constants";
 const page = () => {
   return (
     <div>
-      <Title />
+      <Title
+        title="Event Schedule"
+        subtitle="Get ready for a week filled with inspiration, knowledge sharing, and opportunities to propel your startup journey to new heights at Cagayan Valley Startup Week 2023!"
+      />
       <div className="max-w-5xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <div className="border-b border-gray-200 dark:border-gray-700">
           <nav
@@ -67,7 +70,10 @@ const page = () => {
                     <div className={`bg-gray-900 max-w-full p-4  md:p-5`}>
                       <div className="">
                         {one.title.map((title, index) => (
-                          <h3 key={index} className="group-hover:text-[#F36F1B] font-semibold text-white dark:group-hover:text-gray-400 dark:text-gray-200 ">
+                          <h3
+                            key={index}
+                            className="group-hover:text-[#F36F1B] font-semibold text-white dark:group-hover:text-gray-400 dark:text-gray-200 "
+                          >
                             {title}
                           </h3>
                         ))}

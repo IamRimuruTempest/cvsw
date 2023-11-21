@@ -2,10 +2,17 @@
 import { useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
+import { NAVIGATIONS } from "@/constants";
 const Navbar = () => {
   useEffect(() => {
     require("preline");
   }, []);
+
+  const currentRoute = usePathname();
+  const activeStyle = "text-[#FBB03B]";
+  const nonActiveStyle = "text-white";
+
   return (
     <>
       {/* <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-gradient-to-r from-[#1B2D5F]  to-[#83143C]  text-sm py-3 sm:py-0 dark:bg-gray-800 dark:border-gray-700 sticky top-0"> */}
@@ -75,27 +82,55 @@ const Navbar = () => {
 
               <Link
                 href="/"
-                className="font-medium text-[#FBB03B] sm:py-6 dark:text-blue-500"
+                className={`${
+                  currentRoute === "/" ? activeStyle : nonActiveStyle
+                } font-medium sm:py-6 dark:text-blue-500`}
                 aria-current="page"
               >
                 Home
               </Link>
 
-              <a
-                className="flex items-center gap-x-2 font-medium text-white hover:text-[#FBB03B] sm:border-l sm:border-gray-300 sm:my-6 sm:pl-6 dark:border-gray-700 dark:text-gray-400 dark:hover:text-blue-500"
+              <Link
                 href="/schedule"
+                className={`${
+                  currentRoute === "/schedule" ? activeStyle : nonActiveStyle
+                } flex items-center gap-x-2 font-medium hover:text-[#FBB03B] sm:border-l sm:my-6 sm:pl-6 dark:border-gray-700 dark:text-gray-400 dark:hover:text-blue-500`}
+                aria-current="page"
               >
                 Schedule
-              </a>
+              </Link>
 
-              <a
-                className="flex items-center gap-x-2 font-medium text-white hover:text-[#FBB03B] sm:border-l sm:border-gray-300 sm:my-6 sm:pl-6 dark:border-gray-700 dark:text-gray-400 dark:hover:text-blue-500"
+              <Link
+                href="/speakers"
+                className={`${
+                  currentRoute === "/speakers" ? activeStyle : nonActiveStyle
+                } flex items-center gap-x-2 font-medium hover:text-[#FBB03B] sm:border-l sm:my-6 sm:pl-6 dark:border-gray-700 dark:text-gray-400 dark:hover:text-blue-500`}
+                aria-current="page"
+              >
+                Speakers
+              </Link>
+
+              <Link
+                href="/topics"
+                className={`${
+                  currentRoute === "/topics" ? activeStyle : nonActiveStyle
+                } flex items-center gap-x-2 font-medium hover:text-[#FBB03B] sm:border-l sm:my-6 sm:pl-6 dark:border-gray-700 dark:text-gray-400 dark:hover:text-blue-500`}
+                aria-current="page"
+              >
+                Topics
+              </Link>
+
+              <Link
                 href="/register"
+                className={`${
+                  currentRoute === "/register" ? activeStyle : nonActiveStyle
+                } flex items-center gap-x-2 font-medium hover:text-[#FBB03B] sm:border-l sm:my-6 sm:pl-6 dark:border-gray-700 dark:text-gray-400 dark:hover:text-blue-500`}
+                aria-current="page"
               >
                 Register
-              </a>
+              </Link>
 
-              <a
+              {/* <a
                 className="flex items-center gap-x-2 font-medium text-white hover:text-[#FBB03B ] sm:border-l sm:border-gray-300 sm:my-6 sm:pl-6 dark:border-gray-700 dark:text-gray-400 dark:hover:text-blue-500"
                 href="#"
               >
@@ -110,7 +145,7 @@ const Navbar = () => {
                   <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
                 </svg>
                 Log in
-              </a>
+              </a> */}
             </div>
           </div>
         </nav>

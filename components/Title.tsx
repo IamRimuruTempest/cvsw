@@ -1,6 +1,9 @@
-import React from "react";
+interface ChildProps {
+  title: string;
+  subtitle: string;
+}
 
-const Title = () => {
+const Title: React.FC<ChildProps> = ({ title, subtitle }) => {
   return (
     <div>
       <div className="relative overflow-hidden">
@@ -19,17 +22,18 @@ const Title = () => {
                 #CVSW2023
               </p>
               <div className="mt-5 max-w-2xl">
-               
                 <h1 className="block font-black uppercase text-center text-[#322979] text-4xl md:text-5xl lg:text-6xl dark:text-gray-200">
-                  Event Schedule
+                  {/* Event Schedule */}
+                  {title}
                 </h1>
               </div>
 
               <div className="mt-5 max-w-3xl">
                 <p className="text-lg text-gray-600 dark:text-gray-400">
-                  Get ready for a week filled with inspiration, knowledge
+                  {/* Get ready for a week filled with inspiration, knowledge
                   sharing, and opportunities to propel your startup journey to
-                  new heights at Cagayan Valley Startup Week 2023!
+                  new heights at Cagayan Valley Startup Week 2023! */}
+                  {subtitle}
                 </p>
               </div>
               <div className="mt-8 gap-3 flex justify-center">
